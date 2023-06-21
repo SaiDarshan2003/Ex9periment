@@ -12,8 +12,6 @@ To implement ROLLUP function.
 
 4.Inside the table ,create variables with appropriate datatype.
 
-5.Insert values and apply logic to visualize the output.
-
 ## Program:
 
 ```
