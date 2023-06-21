@@ -1,5 +1,4 @@
-# Experiment 22
-
+## Experiment 22
 ## Aim:
 To implement ROLLUP function.
 ## Algorithm:
@@ -13,7 +12,6 @@ To implement ROLLUP function.
 4.Inside the table ,create variables with appropriate datatype.
 
 ## Program:
-
 ```
 CREATE TABLE EMPLOYEE (  
  emp_id int identity,  
