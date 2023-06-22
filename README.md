@@ -33,7 +33,13 @@ FROM EMPLOYEE
 GROUP BY country WITH ROLLUP;  
 SELECT COALESCE(country, 'GRAND TOTAL' ) AS country, SUM(salary) AS "Total Salary"  
 FROM EMPLOYEE  
-GROUP BY ROLLUP (country);  
+GROUP BY ROLLUP (country);
 ```
+
+## Output:
+
+![image](https://github.com/SaiDarshan2003/Ex9periment/assets/94692595/01056fa1-b764-4244-ac9c-55f17c1d14af)
+
+
 ## Result:
 Therefore we have successfully implemented ROLLUP function.
